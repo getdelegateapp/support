@@ -6,7 +6,7 @@ This repository is for **bug reports and feature requests** only. The app's sour
 
 - **Something not working?** [Report a problem](../../issues/new?template=bug.yml)
 - **Have an idea?** [Request a feature](../../issues/new?template=feature.yml)
-- **Prefer email?** Write to rockettutoring@outlook.com
+- **Prefer email?** Write to contact@getdelegateapp.com
 
 Before opening an issue, please search the [existing issues](../../issues). If yours is already there, add a 👍 to it instead.
 
