@@ -1,0 +1,32 @@
+name: Request a feature
+description: An idea that would make Delegate more useful.
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: Please check the existing issues first — if someone has already asked, add a 👍 to theirs.
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like Delegate to do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would it help?
+      description: What are you trying to get done? Knowing the job helps more than a specific design.
+  - type: input
+    id: app-version
+    attributes:
+      label: Delegate version
+      placeholder: "1.0.0"
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Device
+      options:
+        - iPhone
+        - iPad
+        - Android phone
+        - Android tablet

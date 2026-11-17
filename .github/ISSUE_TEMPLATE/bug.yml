@@ -1,0 +1,59 @@
+name: Report a problem
+description: Something in Delegate isn't working as expected.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issues are public. **Don't include your server address, access token, or business details.** Cover any private information in screenshots.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you see, and what did you expect to see instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How can we make it happen again?
+      placeholder: |
+        1. Open Purchases
+        2. Tap an invoice
+        3. …
+  - type: input
+    id: app-version
+    attributes:
+      label: Delegate version
+      description: Settings › About shows it. Filled in automatically when you report from the app.
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Device
+      options:
+        - iPhone
+        - iPad
+        - Android phone
+        - Android tablet
+    validations:
+      required: true
+  - type: input
+    id: os-version
+    attributes:
+      label: iOS / Android version
+      placeholder: "iOS 26.1"
+  - type: input
+    id: manager-version
+    attributes:
+      label: Manager server version
+      description: Shown at the bottom of Manager's web pages, if you know it.
+      placeholder: "26.8.4"
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Optional. Drag images here — cover anything private first.

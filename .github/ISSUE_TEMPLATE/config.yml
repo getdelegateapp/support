@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions about Manager itself
+    url: https://www.manager.io
+    about: Delegate isn't made by Manager.io. For help with your accounts, reports, or server, contact Manager.io.
+  - name: Email support
+    url: https://robertskinney.com/delegate/support
+    about: Prefer not to post publicly? Email us instead.
