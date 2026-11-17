@@ -16,4 +16,4 @@ Questions about Manager itself (your accounts, reports, or server) belong with [
 
 Issues here are public. Never post your server address, access token, passwords, or business details. Screenshots are welcome, but cover any names, amounts, or addresses you don't want shared.
 
-See the [Delegate privacy policy](https://robertskinney.com/delegate/privacy) for how the app handles your data.
+See the [Delegate privacy policy](https://getdelegateapp.com/privacy) for how the app handles your data.
